@@ -1,0 +1,33 @@
+body {
+color:orange;
+}
+
+header{
+  display:flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display:flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  padding-left: 6px;
+}
+
+header nav {
+  padding-right: 30px;
+}
+header nav a{
+  padding: 0px 2px;
+  color: black;
+}
