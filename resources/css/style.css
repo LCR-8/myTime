@@ -1,7 +1,3 @@
-body {
-color:orange;
-}
-
 header{
   display:flex;
   font-family: Verdana;
@@ -10,6 +6,15 @@ header{
   align-items: center;
   padding-bottom: 8px;
   border-bottom: 1px solid black;
+}
+
+header nav {
+  padding-right: 30px;
+}
+
+header nav a{
+  padding: 0px 2px;
+  color: black;
 }
 
 .logo {
@@ -24,10 +29,62 @@ header{
   padding-left: 6px;
 }
 
-header nav {
+.container {
+  border: 3px solid green;
+  display: flex;
+  width: 1232px;
+  margin: 0px 30px;
+  padding-top: 30px;
   padding-right: 30px;
 }
-header nav a{
-  padding: 0px 2px;
-  color: black;
+
+.column {
+  margin-right: 26px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.column.large {
+  width: 630px;
+  border: 2px solid blue;
+}
+
+.column.medium {
+  width: 300px;
+  border: 2px solid red;
+}
+
+.column.small {
+  width: 240px;
+  border: 2px solid orange;
+}
+
+.column div {
+  border: 1px solid black;
+}
+
+.storymain {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  background-image: url('../images/img-story-main.png');
+}
+
+.story {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+}
+
+.s1 {
+  background-image: url('../images/img-story-2.png');
+}
+
+.s2 {
+  background-image: url('../images/img-story-3.png');
+}
+
+.s3 {
+  background-image: url('../images/img-story-1.png');
 }
