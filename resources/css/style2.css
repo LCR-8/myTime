@@ -30,7 +30,7 @@ header nav a{
 }
 
 .container {
-  display: flex;
+
   width: 1232px;
   margin: 0px 30px;
   padding-top: 30px;
@@ -39,14 +39,12 @@ header nav a{
 
 .column {
   margin-right: 26px;
-  display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
 
 .column.large {
   width: 630px;
-  display: flex;
 }
 
 .column.medium {
@@ -65,7 +63,6 @@ header nav a{
 }
 
 .img-cnt {
-  display: flex;
   justify-content: center;
   height: 300px;
   width: 300px;
@@ -88,8 +85,12 @@ header nav a{
 }
 
 .second {
-  display: inline-flex;
+  display: flex;
   width: 300px;
+}
+
+.second.column {
+  margin-right: 0px;
 }
 
 .s1 {
